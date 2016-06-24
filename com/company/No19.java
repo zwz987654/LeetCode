@@ -20,7 +20,7 @@ public class No19 {
              ListNode(int x) { val = x; }
     }
     //只用一次遍历去除链表倒数第N个元素并正序显示
-    //此题可以用双指针,把距离n理解为一个框,推动框向后移动
+    //此题可以用双指针,把距离n理解为一个框, 推动框向后移动
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if(head == null){
             return head;
