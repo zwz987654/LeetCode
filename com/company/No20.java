@@ -9,6 +9,7 @@ import java.util.Stack;
  The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
  */
 public class No20 {
+
     public static boolean isValid(String s) {
         if (s.length() % 2 != 0) return false;
         Stack<Character> stack = new Stack<>();
